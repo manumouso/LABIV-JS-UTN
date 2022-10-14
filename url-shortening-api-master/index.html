@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="urlShortening.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  
+</head>
+<body>
+  <div class="navy">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Shortly</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Features </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Pricing </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Resources</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <span class="nav-item">
+        <button type="button" id="btn1" class="btn btn-light">Login</button>
+      </span>
+      <span class="nav-item">
+        <button type="button" id="btn2" class="btn btn-info"> Sign Up</button>
+      </span>
+    </div>
+  </nav>
+</div>
+  <div class="container1">
+    <div class="column1">
+    <h1>More than just shorter links</h1>
+    <p>Build your brand’s recognition and get detailed insights 
+      on how your links are performing.
+    </p>
+    <button id="btn3" class="btn btn-info">Get Started</button> 
+    </div>
+    <div class="column2">
+      <img class="img1" src="images/illustration-working.svg" alt="illustration-working">
+    </div>
+  </div>  
+  <div class="navy">
+  <div class="container2">
+    <div class="inputLink"><input type="text" name="" id="shortLink" placeholder="Shorten a link here..."></div>
+    <div class="invalid-feedback">
+      Please add a link.
+    </div>
+    <div><button id="btn4" class="btn btn-info">Shorten It!</button></div>
+  </div>
+</div>
+  
+  <div class="section2">
+  <div id="result"></div>
+  <div class="container3">
+    <h4>Advanced Statistics</h4>
+    <p>Track how your links are performing across the web with our 
+      advanced statistics dashboard.</p>
+  </div>
+  
+
+  <div class="container4">
+    <div class="columnStart">
+      <div id="icon1" class="iconos"><img src="images/icon-brand-recognition.svg" alt=""></div>
+      <h5>Brand Recognition</h5> 
+      <div class="text"> Boost your brand recognition with each click. Generic links don’t 
+        mean a thing. Branded links help instil confidence in your content.
+      </div>
+    </div>
+    <div class="linea"></div>
+    <div class="columnCenter">
+      <div  id="icon2" class="iconos"><img  src="images/icon-detailed-records.svg" alt=""></div>
+      <h5>Detailed Records</h5>
+      <div class="text">Gain insights into who is clicking your links. Knowing when and where 
+        people engage with your content helps inform better decisions.
+      </div> 
+    </div>
+    <div class="linea"></div>
+    <div class="columnEnd">
+      <div  id="icon3" class="iconos"><img  src="images/icon-fully-customizable.svg" alt=""></div>
+      <div><h5>Fully Customizable</h5></div> 
+      <div class="text">Improve brand awareness and content discoverability through customizable 
+        links, supercharging audience engagement.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section3">
+  <h4>Boost your links today</h4>
+  <button id="btn5" class="btn btn-info">Get Started</button>
+</div>  
+
+<div class="footer">
+
+  <div class="logoFooter"><img src="images/logo.svg" alt=""></div>
+  <div class="columnFooter">
+    <h6>Features</h6> 
+    <a class="nav-link smallA" href="">Link Shortening</a>
+    <a class="nav-link smallA" href="">Branded Links</a>
+    <a class="nav-link smallA" href="">Analytics</a>
+  </div>
+  <div class="columnFooter">
+    <h6>Resources</h6> 
+    <a class="nav-link smallA" href="">Blog</a>
+    <a class="nav-link smallA" href="">Developers</a>
+    <a class="nav-link smallA" href="">Support</a>
+  </div>
+  <div class="columnFooter extra">
+    <h6>Company</h6> 
+    <a class="nav-link smallA" href="">About</a>
+    <a class="nav-link smallA" href="">Our Team</a>
+    <a class="nav-link smallA" href="">Careers</a>
+    <a class="nav-link smallA" href="">Contact</a>
+  </div>
+  <div class="iconsFooter">
+    <div><img src="images/icon-facebook.svg" alt=""></div>
+    <div><img src="images/icon-twitter.svg" alt=""></div>
+    <div><img src="images/icon-pinterest.svg" alt=""></div>
+    <div><img src="images/icon-instagram.svg" alt=""></div>
+  </div>
+</div>
+  <script src="urlShortening.js"></script>
+</body>
+</html>
