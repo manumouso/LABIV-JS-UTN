@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    color: #fe019a;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 200;
+    font-size: 14px;
+    background-color: white;
+    background-image: url(images/moon.jpg);
+    background-repeat:repeat-y;
+    
+}
+
+.start{
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(180, 66%, 49%);
+    opacity: 0.8;
+    margin: 10% 0% 0 25%;
+    border-radius: 25px;
+    
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 10vh;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.center{
+    display: flex;
+    width: 40vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3.5% 0 1.5% 30%;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35vw;
+    height: 10vh;
+    margin: 2.5% 0 3.5% 33%;
+    --bs-btn-font-size: 0.3rem;
+}
+.turn{
+    display: flex;
+    width: 40vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0 1% 30%;
+}
+
+.game{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rectangle{
+    display: flex;
+    width: 12vw;
+    height: 20vh;
+    background-color: white ;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image{
+    width: 12vw;
+    height: 15vh; 
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: max-content;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5% 0 8% 32%;
+    
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 10vh;
+    background-color:hsl(0, 0%, 75%);
+    opacity: 0.9;
+    border-radius: 25px;
+    margin-top: 1%;
+}
+
+.rowTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    width: 25vw;
+    height: 10vh;
+    border-radius: 15px;
+}
+
+#countdown{
+    font-size: 15px;
+}
